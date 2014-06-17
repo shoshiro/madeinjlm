@@ -1,0 +1,4 @@
+<br />
+<b>Warning</b>:  readfile() [<a href='function.readfile'>function.readfile</a>]: URL file-access is disabled in the server configuration in <b>/homepages/43/d173496313/htdocs/madeinjerusalem.org/map/downCsv.php</b> on line <b>45</b><br />
+<br />
+<b>Warning</b>:  readfile(https://docs.google.com/spreadsheet/pub?key=0An2BgPnSFrG6dFE2XzF0bVl0cmZfbVYtcThGRFo4anc&amp;single=true&amp;gid=1&amp;output=csv) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: no suitable wrapper could be found in <b>/homepages/43/d173496313/htdocs/madeinjerusalem.org/map/downCsv.php</b> on line <b>45</b><br />
