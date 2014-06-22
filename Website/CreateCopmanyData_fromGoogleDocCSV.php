@@ -2,7 +2,7 @@
 
 $debug = true;
 // we connect to example.com and port 3307
-$link = mysql_connect('db439196920.db.1and1.com', 'dbo439196920','12345678');
+$link = mysql_connect('127.0.0.1:3306', 'root','sr2498');
 if (!$link) {
 	die('Could not connect: ' . mysql_error());
 }
@@ -10,7 +10,7 @@ if($debug)
 	echo 'Connected successfully';
 
 
-mysql_select_db("db439196920");
+mysql_select_db("madeinjlm");
 
 if($debug)
 	echo "<br>start<br>";
@@ -18,7 +18,7 @@ if($debug)
 
 
 $row = 1;
-if (($handle = fopen("madeinjlm_data.csv", "r")) !== FALSE) {
+if (($handle = fopen("files/madeInJLM_data.csv", "r")) !== FALSE) {
 while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
 	$num = count($data);
 	if($debug)
@@ -62,7 +62,7 @@ while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
 									   .CleanText($data[0]).","	//name
 									   .CleanText($data[11]).","	//description
 									   .CleanText($data[1]).","	//url
-									   .CleanText($data[2]).","	//picture
+									   .CleanText($data[28]).","	//picture
 									   .CleanText($data[3]).","	//address
 									   .CleanText($data[4]).","	//Area
 									   .CleanText($data[5]).","	//tags
@@ -93,7 +93,7 @@ while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
 
 		if($debug)
 		{
-			for ($c=0; $c <20; $c++)
+			for ($c=0; $c <40; $c++)
 				echo $c.":". $data[$c] . "<br />\n";
 
 		echo "--------------------------------------------------------------------------------------<br>";
@@ -134,18 +134,26 @@ while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
 	function CleanText($var)
 	{
 
-		//I'm sure there is a better way to get rid of special charachters or replace them with tags - please look into it. Shoshi 16.june.14
-		$result = str_replace("'","", $var);
-		$result = str_replace("`","",$result);
-		$result = str_replace("’","",$result);
-		$result = str_replace("‘","",$result);
-		$result = str_replace("“","",$result);
-		$result = str_replace("”","",$result);
-		$result = str_replace("™"," TM ",$result);
-		$result = str_replace("—","-",$result);
-		$result = str_replace(",", ";", $result);
+		$fieldPrefix = substr($var, 0,4);
 
-		$result = str_replace("\"", "", $result);
+		if($fieldPrefix == 'http' || $fieldPrefix == '<img')	//don't change anything in case of link or image
+		{
+			$result = $var;
+		}
+		else
+		{
+			//I'm sure there is a better way to get rid of special charachters or replace them with tags - please look into it. Shoshi 16.june.14
+			$result = str_replace("'","", $var);
+			$result = str_replace("`","",$result);
+			$result = str_replace("’","",$result);
+			$result = str_replace("‘","",$result);
+			$result = str_replace("“","",$result);
+			$result = str_replace("”","",$result);
+			$result = str_replace("™"," TM ",$result);
+			$result = str_replace("—","-",$result);
+			$result = str_replace(",", ";", $result);
+			$result = str_replace("\"", "", $result);
+		}
 		if(!$result )
 			$result = "";
 	 	return "'".$result."'";
