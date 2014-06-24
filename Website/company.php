@@ -5,14 +5,13 @@
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <head >
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Made In Jerusalem - Company List</title>
+<title>Shoshi PHP Test</title>
 
 </head>
 <?php
 $debug = true;
-include "connect.php"; //include php file of connection string.
 
-$link=mysqli_connect($mysql_host, $mysql_user,$mysql_pass, $mysql_default_database);
+$link=mysqli_connect('db439196920.db.1and1.com', 'dbo439196920','12345678', "db439196920");
 
 
 function DisplaySQLTableData($link,$query)
@@ -26,7 +25,7 @@ function DisplaySQLTableData($link,$query)
 		while ($row = $result->fetch_row()) {
 			echo "<tr>";
 			for($i=0;$i<mysqli_num_fields($result);$i++)
-				echo "<td>" .CheckForImagesOrLinks($row[$i], $row[5])."</td>" ;
+				echo "<td>" .CheckForImagesOrLinks($row[$i], $i)."</td>" ;
 			echo "</tr>";
 
 		}
@@ -38,7 +37,7 @@ function DisplaySQLTableData($link,$query)
 	else echo 'ERROR:'.mysqli_error($link);
 }
 
-function CheckForImagesOrLinks($fieldvalue,$url)
+function CheckForImagesOrLinks($fieldvalue)
 {
 	$result = $fieldvalue; //set result as same value by default;
 
@@ -48,16 +47,11 @@ function CheckForImagesOrLinks($fieldvalue,$url)
 		if(is_string($fieldvalue))
 		{
 			$file_extension = substr($fieldvalue,strlen($fieldvalue)-4,4);
-			$imgPrefix = substr($fieldvalue,1,3);
-			//echo $imgPrefix;
-
 			if($file_extension==".png" || $file_extension == ".jpg" || $file_extension==".gif" || $file_extension=="jpeg")
 			{
 				$isImage = true;
 				$result = "<img src='$fieldvalue' alt='$fieldvalue' style='max-height: 100px; max-width: 100px'>";
 			}
-			if(substr($result,0,4)=='<img' && $url)
-				$result = str_replace('<img', "<a href='$url' alt='$url' ><img", $result).'</a>';
 			if(!$isImage && substr($fieldvalue, 0,4)=="http")
 					$result = "<a href='$fieldvalue'>$fieldvalue</a>";
 
@@ -67,18 +61,6 @@ function CheckForImagesOrLinks($fieldvalue,$url)
 	}
 	return $result;
 }
-
-
-
-//Try loading database objects
-
-
-
-
-//echo 'var data = { "companies" : '.json_encode($array).' };';
-
-
-
 ?>
 
 <body>
@@ -107,16 +89,15 @@ function CheckForImagesOrLinks($fieldvalue,$url)
 
 $query = "SELECT
 		 tblCompany.picture
-		,tblCompany.name AS CompanyName
+		,tblCompany.name
 		,tblCompany.description
-		,listType.name 	 AS CompanyType
-		,listIndustry.name  AS Industry
+		,listType.name
+		,listIndustry.name
 		,tblCompany.url
 		from company as tblCompany
 		JOIN list_industry as listIndustry ON tblCompany.industry_id = listIndustry.industry_id
 		JOIN list_company_type as listType ON tblCompany.type_id = listType.company_type_id;";
 DisplaySQLTableData($link,$query);
-
 
 
 /* close connection */

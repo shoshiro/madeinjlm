@@ -40,7 +40,7 @@ function initialize() {
 
     var categories = [];
 
-    alert(data.companies.length);
+    //alert(data.companies.length);
     for (var i = 0; i < data.companies.length; i++)
     {
         var company = data.companies[i];
@@ -105,15 +105,24 @@ function initialize() {
 function showCategory(categoryName) {
     markerCluster.clearMarkers();
 
+    $('.company_list').empty();
     for (var i = 0; i < markers.length; i++)
     {
         if(categoryName == "all" || categoryName == 0)
         {
             markerCluster.addMarker(markers[i]);
+            // Update the UI
+            $('.company_list').append('<span class="label">'+markers[i].data.picture+'<br></span>');
         }
         else if(markers[i].data.Industry == categoryName)
         {
             markerCluster.addMarker(markers[i]);
+            // Update the UI
+            $('.company_list').append('<span class="label">'+markers[i].data.picture+'<br></span>');
+
         }
+
+
+
     }
 }

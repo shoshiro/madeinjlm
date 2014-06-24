@@ -1,8 +1,12 @@
 <?php
 
 $debug = true;
+
+
+include "connect.php"; //include php file of connection string.
+
 // we connect to example.com and port 3307
-$link = mysql_connect('127.0.0.1:3306', 'root','sr2498');
+$link = mysql_connect($mysql_host, $mysql_user,$mysql_pass);
 if (!$link) {
 	die('Could not connect: ' . mysql_error());
 }
@@ -10,7 +14,7 @@ if($debug)
 	echo 'Connected successfully';
 
 
-mysql_select_db("madeinjlm");
+mysql_select_db($mysql_default_database);
 
 if($debug)
 	echo "<br>start<br>";

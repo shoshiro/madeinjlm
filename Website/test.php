@@ -45,6 +45,6 @@ $commands = file_get_contents("sql/madeinjlm_17June2014.sql");
 if (mysqli_multi_query($link, $commands))
 	echo "Success";
 else
-	echo "Fail";
+	echo "Fail".mysqli_error($link);
 
 ?>
