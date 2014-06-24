@@ -36,7 +36,9 @@ $query = "SELECT
 		,tblCompany.isHiring
 		from company as tblCompany
 		LEFT JOIN list_industry as listIndustry ON CASE WHEN tblCompany.industry_id = -1 THEN 13 ELSE tblCompany.industry_id END = listIndustry.industry_id
-		LEFT JOIN list_company_type as listType ON CASE WHEN tblCompany.type_id = -1 THEN 13 ELSE tblCompany.type_id END = listType.company_type_id;";
+		LEFT JOIN list_company_type as listType ON CASE WHEN tblCompany.type_id = -1 THEN 13 ELSE tblCompany.type_id END = listType.company_type_id
+		ORDER BY listIndustry.order_by,tblCompany.name;
+		";
 DisplaySQLTableDataASJSON($link, $query);
 
 /* close connection */
