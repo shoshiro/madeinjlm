@@ -3,7 +3,6 @@
 
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
-
 <head >
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Made In Jerusalem - Company List</title>
@@ -18,20 +17,14 @@ $link=mysqli_connect($mysql_host, $mysql_user,$mysql_pass, $mysql_default_databa
 
 function DisplaySQLTableData($link,$query)
 {
-	$editURL = "company_edit.php?company_id=";
 	if ($result = $link->query($query)) {
 		echo '<table border="1" bgcolor="white"><tr>';
-		while ($field = $result->fetch_field()) {
-			if($field->name != "company_id")
-				echo "<th>$field->name</th>";
-		}
 
 		/* fetch associative array */
 		while ($row = $result->fetch_row()) {
-			echo "<tr>";
-			for($i=0;$i<(mysqli_num_fields($result)-1);$i++)
-				echo "<td>" .CheckForImagesOrLinks($row[$i], $editURL.$row[6])."</td>" ;
-			echo "</tr>";
+
+			for($i=0;$i<mysqli_num_fields($result);$i++)
+				echo "<tr><td>" .CheckForImagesOrLinks($row[$i], $row[5])."</td></tr>" ;
 
 		}
 		echo "</table>";
@@ -105,11 +98,11 @@ function CheckForImagesOrLinks($fieldvalue,$url)
             </header>
   </div>
 <section class="section" >
-<span style="text-align: left;"><input type="submit" id="NewCompany" value="Add a Company"/> </span><br><br>
+<a href="company.php">Back To List</a>
 <div align="center">
 
 <?
-
+$companyID = $_REQUEST["company_id"];
 
 $query = "SELECT
 		 tblCompany.picture
@@ -118,10 +111,10 @@ $query = "SELECT
 		,listType.name 	 AS CompanyType
 		,listIndustry.name  AS Industry
 		,tblCompany.url
-		,tblCompany.company_id
 		from company as tblCompany
 		JOIN list_industry as listIndustry ON tblCompany.industry_id = listIndustry.industry_id
-		JOIN list_company_type as listType ON tblCompany.type_id = listType.company_type_id;";
+		JOIN list_company_type as listType ON tblCompany.type_id = listType.company_type_id
+		WHERE tblCompany.company_id =$companyID;";
 DisplaySQLTableData($link,$query);
 
 

@@ -1,0 +1,43 @@
+<html>
+  <head>
+     <title>Handlebars.js Demo</title>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"> </script>
+      <script src="/js/handlebars-v1.3.0.js"> </script>
+     <script id="some-template" type="text/x-handlebars-template">
+  <table>
+    <thead>
+      <th>Username</th>
+      <th>Real Name</th>
+      <th>Email</th>
+    </thead>
+    <tbody>
+      {{#users}}
+        <tr>
+          <td>{{username}}</td>
+          <td>{{firstName}} {{lastName}}</td>
+          <td>{{email}}</td>
+        </tr>
+      {{/users}}
+    </tbody>
+  </table>
+</script>
+
+  </head>
+  <body>
+      <div id="content"></div>
+  </body>
+  <script>
+
+  var source   = $("#some-template").html();
+
+  var template = Handlebars.compile(source);
+
+  var data = { users: [
+      {username: "alan", firstName: "Alan", lastName: "Johnson", email: "alan@test.com" },
+      {username: "allison", firstName: "Allison", lastName: "House", email: "allison@test.com" },
+      {username: "ryan", firstName: "Ryan", lastName: "Carson", email: "ryan@test.com" }
+    ]};
+
+  $("#content").html(template(data));
+  </script>
+</html>
