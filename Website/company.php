@@ -86,7 +86,7 @@ function CheckForImagesOrLinks($fieldvalue,$url)
 ?>
 
 <body>
-<form>
+<form method="post" action="company_edit.php">
 <header class="body"></header>
 <div align="right">
 
@@ -105,7 +105,9 @@ function CheckForImagesOrLinks($fieldvalue,$url)
             </header>
   </div>
 <section class="section" >
-<span style="text-align: left;"><input type="submit" id="NewCompany" value="Add a Company"/> </span><br><br>
+<span style="text-align: left;">
+
+<input type="submit" id="NewCompany" value="Add a Company"/> </span><br><br>
 <div align="center">
 
 <?

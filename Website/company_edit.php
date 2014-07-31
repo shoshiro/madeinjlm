@@ -65,6 +65,15 @@ function CheckForImagesOrLinks($fieldvalue,$url)
 	return $result;
 }
 
+function AddCompany()
+{
+
+	$name = $_POST["name"];
+	$description = $_POST["description"];
+	$sql = "INSERT INTO  company(name ,	description)
+				 		  VALUES( $name, $description)";
+	$link->query($sql);
+}
 
 
 //Try loading database objects
@@ -79,7 +88,7 @@ function CheckForImagesOrLinks($fieldvalue,$url)
 ?>
 
 <body>
-<form>
+<form method="post" action="company_edit.php">
 <header class="body"></header>
 <div align="right">
 
@@ -104,6 +113,8 @@ function CheckForImagesOrLinks($fieldvalue,$url)
 <?
 $companyID = $_REQUEST["company_id"];
 
+if($companyID)
+{//dump selected company data on READ ONLY MODE
 $query = "SELECT
 		 tblCompany.picture
 		,tblCompany.name AS CompanyName
@@ -116,9 +127,30 @@ $query = "SELECT
 		JOIN list_company_type as listType ON tblCompany.type_id = listType.company_type_id
 		WHERE tblCompany.company_id =$companyID;";
 DisplaySQLTableData($link,$query);
+}
+else //run the following code in case of ADD/EDIT a record (Editable mode)
+{ ?>
+			<table align=left>
+				<tr>
+					<td>
 
+						 name <br>
+						 <input type="text" id="name">
+						 <br>
+						 Choose Picture<br>
+						<input type="file" name="picturefile" id="picturefile"><Br>
+						description<Br>
+						<input type="text" id="description">
+					</td>
 
-
+				</tr>
+				<tr><td>
+				<br>
+					<input type="submit" value="Add Company" >
+				</td></tr>
+			</table>
+<?php
+}
 /* close connection */
 $link->close();
 ?>
