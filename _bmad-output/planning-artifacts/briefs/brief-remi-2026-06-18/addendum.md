@@ -1,11 +1,13 @@
 ---
-title: "Product Brief Addendum: Simcha"
+title: "Product Brief Addendum: Remi"
 status: draft
 created: 2026-06-18
 updated: 2026-06-18
 ---
 
-# Product Brief Addendum: Simcha
+# Product Brief Addendum: Remi
+
+> Note: This project was previously working-titled "Simcha." Renamed to **Remi** (2026-06-18). The competitive research below remains valid; any references to "Simcha" as a product name are historical.
 
 Supplementary depth for downstream documents (PRD, architecture, competitive positioning).
 
