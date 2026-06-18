@@ -9,13 +9,13 @@ updated: 2026-06-18
 
 ## Executive Summary
 
-Simcha is a bilingual (Hebrew + English) family lifecycle memory platform built around one core mechanic: **The Thread** — guided blessings and messages recorded at lifecycle milestones, sealed, and delivered at future events.
+Simcha is a bilingual (Hebrew + English) guided blessing collection platform for Jewish lifecycle events. When a family celebrates a milestone — a bris, a birthday, a bar mitzvah — Simcha gives guests a link, a culturally-aware prompt, and a simple way to record a video or text blessing. The host gets a curated, organized collection of family blessings they can watch that night, share with family who couldn't attend, and keep forever.
 
-Parents create a Thread for their child at birth. Grandparents, aunts, uncles, and friends contribute video and text blessings — guided by emotionally-tuned, culturally-aware scripts — at each milestone: birth, brit/simchat bat, first day of school, birthdays, bar/bat mitzvah, graduation, wedding. Each contribution is sealed until the next milestone unlocks it. The Thread grows across years and decades, becoming a family heirloom that cannot exist anywhere else.
+The bonus layer: blessings can be *sealed* for delivery at a future milestone. A message recorded at a bris can be locked until the bar mitzvah. A birthday blessing can wait for next year. Over time, a family builds a **Thread** — a living timeline of blessings that spans years and grows more valuable with every event. But the product works on day one, at one event, with no waiting.
 
-The market is fragmented: baby photo apps (Tinybeans, FamilyAlbum) own the daily stream but ignore extended family and sacred moments. Event photo collectors (Kululu, GuestPix) capture one event and die. Time capsule apps (FutureMe, Sealed) offer cheap text delivery with zero emotional scaffolding. Tribute platforms (StoryWorth, Tribute.co) build one-time artifacts. **No product connects lifecycle events into a living family story, and none does it in Hebrew.**
+The market is fragmented: baby photo apps own the daily stream but ignore extended family and sacred moments. Event photo collectors capture one event and die. Time capsule apps offer cheap text delivery with zero emotional scaffolding. **No product helps families capture guided blessings at lifecycle events, and none does it with Jewish cultural awareness or Hebrew support.**
 
-Simcha's wedge is the founder's warm network of Jewish families on NYC's Upper East Side — high disposable income, high lifecycle event spend, and strong cultural attachment to l'dor v'dor (generation to generation). The product is Hebrew-first with full English support, serving both Israeli families and the Jewish diaspora.
+The GTM wedge is the founder's warm network of Jewish families on NYC's Upper East Side — high disposable income, high lifecycle event spend, and strong cultural attachment to l'dor v'dor (generation to generation). English-first with full Hebrew support from day one.
 
 ## The Problem
 
@@ -29,63 +29,85 @@ After every Jewish lifecycle event, the same pain repeats:
 
 **Nothing connects the events.** Each milestone is treated as isolated — a separate WhatsApp group, a separate shared album, a separate physical guestbook that sits in a closet. There's no continuity, no thread, no family story that builds over time.
 
-Hosts cope by cobbling together WhatsApp groups + Google Photos + physical guestbooks + hired photographers. The professional shots get preserved. The family's emotional layer — the blessings, the candid love, the voices — is lost.
+**Most families just accept the loss.** The biggest competitor is doing nothing. Hosts cope, memories fade, and life moves on. The pain is real but diffuse — nobody's searching for a solution because they've accepted the status quo.
 
 ## The Solution
 
-Simcha gives families a **Thread** — a living timeline of sealed blessings and memories that grows with every lifecycle milestone.
+Simcha gives families a simple way to collect meaningful blessings at lifecycle events — and a reason to come back at the next one.
 
 **How it works:**
 
 1. **Create a milestone.** A parent creates "Noam's Brit Milah" on Simcha. They get a shareable link and QR code.
 
-2. **Guests contribute with guided scripts.** Contributors scan the QR code or tap the link. Simcha presents a culturally-aware prompt that frames the moment:
+2. **Invite key contributors.** The host selects 5–10 people who matter most — grandparents, godparents, siblings, closest friends. These "key contributors" get a personal invitation and a guided prompt. The link can also be shared broadly, but the product is designed to feel rich with 5–8 heartfelt blessings, not 40 shallow ones.
 
-   > *"You're at Noam's brit milah. This message will be opened on the day of his bar mitzvah. He'll be 13. He doesn't know you yet. Tell him who you are to him, and what you wish for his life."*
+3. **Guests contribute with guided scripts.** Contributors tap the link. Simcha presents a culturally-aware prompt that frames the moment:
 
-   They record a video, voice message, or write text. The script transforms casual well-wishes into something sacred. No app download required.
+   > *"You're at Noam's brit milah. Tell him who you are to him, and what you wish for his life."*
 
-3. **Content is sealed.** Contributions are locked until the target milestone. The parent sees that 14 people contributed, but not the content. Anticipation builds.
+   They record a video using their phone's camera and upload it, record a voice message, or write text. The script transforms casual well-wishes into something sacred. No app download required. No account needed.
 
-4. **Milestones unlock over time.** First day of kita aleph? Unlock. Birthday blessings? Unlock. Bar mitzvah? The big reveal — 13 years of sealed love from family and friends, some of whom may no longer be here.
+4. **The host gets a curated collection — immediately.** That evening, the parent watches 8 video blessings from the people who matter most. They share a highlight with grandma in Florida who couldn't attend. The value is instant.
 
-5. **Threads merge at marriage.** When two families' children marry, their independent Threads intertwine — each family brings their side of the story to a shared timeline.
+5. **Optionally, seal blessings for the future.** The host — or the contributor — can choose to seal a message for a future milestone. A grandparent can record two blessings: one for now, one sealed for the bar mitzvah. Over time, these sealed blessings accumulate into a **Thread** — a timeline of family love that grows across years.
 
-**The guided script is the product.** Without it, you get "congrats!" With it, you get something families will replay for generations. The scripts are bilingual (Hebrew/English), event-specific, and relationship-aware (grandparent prompts differ from friend prompts).
+6. **At the next milestone, do it again — and unseal what's waiting.** When the bar mitzvah arrives, the family opens a new milestone on Simcha, collects new blessings, and unlocks the ones sealed 13 years ago. Some of those voices may belong to people no longer here. That's the moment.
+
+**The guided script is the product.** Without it, you get "congrats!" With it, you get something families will replay for generations. Scripts are bilingual (Hebrew/English), event-specific, and relationship-aware (grandparent prompts differ from friend prompts).
 
 ## What Makes This Different
 
-- **Time is the moat.** Every competitor captures a moment. Simcha captures a *trajectory.* The longer a family uses it, the more irreplaceable it becomes. Sealed content creates absolute switching cost — you can't take unopened messages to another platform.
-- **The script transforms the input.** Photo collection apps get drunk selfies. Simcha gets blessings. The difference is the prompt, not the technology.
-- **Hebrew-first, culturally native.** Blessings (ברכות) are the Jewish ritual pattern. Simcha digitizes existing behavior rather than inventing new behavior. No competitor operates in Hebrew.
-- **Guest contribution requires zero friction.** No app download, no account. Scan, record, done. The host benefits; the guest barely lifts a finger.
-- **Downloadable artifact ensures trust.** Families can export their full Thread — videos, messages, PDF timeline — to their own storage at any time. Simcha is where it *lives and grows*, but you always own a copy. The platform's value is in the experience of unsealing, presenting, and narrating — not in holding content hostage.
+The real competitors are not apps — they're behaviors:
 
-**Honest moat assessment:** The guided scripts and Hebrew-first positioning are real differentiators but replicable. The true moat is accumulated sealed content — once a family has years of contributions, they cannot leave. This moat strengthens over time but is weak at launch.
+- **vs. Doing nothing:** Simcha makes collection effortless. Share a link, get blessings back. The host does less work than chasing photos on WhatsApp.
+- **vs. WhatsApp group:** Simcha adds structure, video quality (no compression), guided prompts that elevate the content, and a permanent, organized collection instead of a chat thread that scrolls away.
+- **vs. Hired photographer:** Complementary, not competitive. The photographer captures professional moments. Simcha captures what they don't — family voices, spoken blessings, candid love.
+- **vs. Tribute.co:** Closest functional competitor (group video collection via link). But Tribute is one-shot, generic, and workplace-oriented. Simcha is culturally native, lifecycle-spanning, and relationship-aware.
+
+**Defensibility (honest assessment):**
+- **Weak at launch:** Guided scripts and Hebrew support are real differentiators but replicable. Any competitor could add Jewish-themed prompts.
+- **Strengthens over time:** Accumulated sealed content creates absolute switching cost — you can't take unopened messages to another platform. But this moat takes years to build.
+- **Cultural trust is the real moat:** If Simcha becomes the "thing Jewish families do" at lifecycle events — like a digital mezuzah for milestones — that behavioral association is very hard to displace. This is earned, not built.
 
 ## Who This Serves
 
-**Primary: The milestone host (parent).** Typically a mother aged 28–45, managing the emotional and logistical load of family milestones. She's already the one chasing photos on WhatsApp. She wants to preserve what matters but doesn't have time to build scrapbooks. She'll pay for something that makes her feel like a great mom/family steward without adding work.
+**Primary: The milestone host (parent/organizer).**
 
-**Secondary: Grandparents.** The most emotionally motivated contributors. They want their voice, their blessing, their story to reach grandchildren at moments they may not live to see. Simcha gives them a way to be present at future milestones. [ASSUMPTION: Grandparents may also be the *gift purchasers* — buying a Simcha subscription for their grandchild as a birth gift.]
+Testable hypotheses (not assumptions):
+- Parents who recently hosted a lifecycle event experienced memory chaos and would have paid $29–$79 to solve it.
+- The host is the buyer. (Validate: who organized the WhatsApp group after the last event?)
+- The host wants a curated, small collection of meaningful blessings — not a dump of 200 blurry photos.
 
-**Tertiary: Event guests.** They contribute but don't pay. Their experience must be frictionless — the product lives or dies on contribution rate.
+**Secondary: Grandparents (contributors and potential gift-purchasers).**
 
-**Market context:** ~95,000 school classes in Israel (proxy for family density), large Jewish diaspora communities in NYC, LA, London, Toronto. StoryWorth proves families pay $69–$199/yr for memory preservation. The addressable market is every Jewish family with a child — starting at birth.
+Testable hypothesis: Grandparents are emotionally motivated enough to record video blessings when given a guided prompt. They may also be the *gift purchasers* — buying a Simcha package for their grandchild at birth.
+
+**Tertiary: Event guests (contributors, non-paying).**
+
+Their experience must be frictionless. The product lives or dies on contribution quality, not quantity. Design for the 6 people who record something meaningful, not the 40 who don't.
+
+**Market sizing:**
+- ~6 million Jewish households in the US; ~500K in NYC metro
+- 0.1% penetration of NYC metro = 500 families — sufficient for validation
+- Israel (~200K births/year) is phase 2: larger volume, lower ARPU
+- StoryWorth ($59–$199/yr) and Remento ($99/yr) prove families pay for memory preservation
+
+**Validation plan:** 10 interviews with parents from founder's NYC network who hosted a lifecycle event in the last 12 months. Ask: What did you wish you'd captured? What did you lose? What would you pay to have it back? Listen for hesitation, not enthusiasm.
 
 ## Success Criteria
 
 **Year 1 — Validation:**
-- 50 active Threads (families with at least one milestone and 5+ contributions)
-- 10 paying subscribers
-- Average contribution rate per milestone >60% of invited guests
-- At least 3 families with 2+ milestones (proves the longitudinal value)
-- Net Promoter Score >50 from host parents
+- 30 paid milestones (families who paid $29+ for at least one event)
+- Average 6+ blessings collected per milestone from key contributors
+- Host satisfaction: >80% say "I'd use this again at the next milestone"
+- At least 5 families who seal content for a future milestone (validates the Thread mechanic)
+- 3+ organic referrals (host shares Simcha with another parent unprompted)
 
-**Year 2 — Growth signal:**
-- First "unsealing moment" at a bar/bat mitzvah or wedding generates organic referrals
-- Revenue run rate of [ASSUMPTION: $15K–$30K ARR]
-- Thread merge feature live (marriage use case)
+**Year 2 — Repeat and growth:**
+- 10+ families return for a second milestone (proves longitudinal value)
+- First sealed content is unsealed at a real milestone event
+- Revenue run rate toward $10K–$20K ARR
+- Contribution quality metric: >50% of video blessings are 30+ seconds (not throwaway)
 
 ## Scope
 
@@ -93,38 +115,58 @@ Simcha gives families a **Thread** — a living timeline of sealed blessings and
 - Create a family Thread
 - Create milestone events within a Thread
 - Shareable link + QR code for guest contribution
-- Guided blessing scripts (Hebrew + English) for: birth/bris/simchat bat, first day of school, birthday, bar/bat mitzvah
-- Video, voice, and text message recording (no app download)
-- Sealed content with milestone-based unlock
-- Basic timeline view for the host
-- Downloadable export (zip: videos + messages + PDF timeline)
+- "Key contributors" invitation flow (host selects 5–10 priority people with personal nudges)
+- Guided blessing scripts (Hebrew + English) for: birth/bris/simchat bat, birthday, first day of school, bar/bat mitzvah
+- Relationship-aware prompts (grandparent, parent, friend, sibling)
+- Video upload from camera roll, voice recording, and text input (no in-browser video recording)
+- Immediate blessing collection view for the host (watch that evening)
+- Optional sealed content with milestone-based unlock
+- Downloadable export (paid tiers: zip with videos + messages + PDF timeline with script context and contributor attribution)
 - Mobile-first responsive web app
-- Stripe or Tranzila payment integration
+- Stripe payment integration (USD for launch market)
 
 **MVP — Out:**
-- AI-curated montage / narrative assembly
-- Thread merging (marriage)
+- In-browser video recording (unreliable on mobile; use native camera + upload instead)
+- Thread merging at marriage (architecturally complex; long-term vision, not launch feature)
+- AI-curated montage / narrative assembly (future premium feature)
 - Real-time event screen ("The Room" concept)
-- Physical printed keepsake book
+- Physical printed keepsake book (future add-on)
 - Native mobile apps (iOS/Android)
 - Shiva/memorial use case (avoid Empathy's lane)
+- Synagogue/community partnerships (B2B sales motion; wrong for solo founder at 5 hrs/week)
+- Annual subscription model (doesn't match usage pattern; revisit when repeat usage is proven)
 
 ## Revenue Model
 
-**Hybrid: freemium subscription + premium event unlocks.**
+**Per-milestone pricing — pay when you have an event.**
 
 | Tier | Price | Includes |
 |---|---|---|
-| **Free** | ₪0 | 1 Thread, 1 active milestone, up to 10 contributors, basic guided scripts |
-| **Family** | ~₪59–79/yr (~$16–22/yr) | Unlimited milestones, full timeline, all guided scripts, video messages, downloadable export |
-| **Milestone+** | ~₪99–149 per event (~$27–41) | Premium unsealing experience for major events (bar/bat mitzvah, wedding), printed keepsake option, merged-family Thread |
+| **Free** | $0 | 1 milestone, up to 5 contributors, text-only blessings, basic guided scripts |
+| **Milestone** | $29 | 1 milestone, unlimited contributors, video/voice/text, all guided scripts, downloadable collection with context |
+| **Thread** | $79 | Up to 5 milestones, everything in Milestone, timeline view, sealed content mechanic, future milestone scheduling |
+| **Legacy** | $149 | Unlimited milestones, everything in Thread, premium unsealing experience, printed keepsake option |
 
-[ASSUMPTION: Pricing in NIS for Israeli market, USD equivalent for diaspora. Exact price points need validation through early adopter conversations.]
+**Why per-milestone, not subscription:** Lifecycle events are infrequent (1–3/year at most). An annual subscription means paying for 12 quiet months between events. Per-milestone pricing matches the moment of value — you pay when you celebrate. If repeat usage proves strong, subscription can be introduced later as a family plan.
+
+**Why the free tier is tight:** Free gets 5 contributors and text-only. This is enough to see the guided script magic but not enough to capture a real event. The upgrade trigger is natural: "I want grandma's video blessing, not just text."
+
+## Handling the Hard Paths
+
+**Divorce:** Each parent retains access to the Thread. Contributions are immutable — one parent can't delete another's blessing. Privacy controls let each parent manage their own visibility settings.
+
+**Death of a contributor:** This is the product's deepest emotional value. Simcha is where voices outlive the people who spoke them. No special handling needed — the content endures.
+
+**Death of the child:** The Thread becomes a memorial. Content is preserved indefinitely. No automated "time to unlock!" notifications — the family decides when and whether to engage. Handle with sensitivity in UX: milestone reminders must be dismissable and context-aware.
+
+**Dormancy:** Per-milestone pricing means nothing to lapse. The Thread sits free and quiet until the next event. Send a gentle annual reminder: "Noam's birthday is coming up. Want to open a new milestone?" No punitive expiration. No deleted content.
+
+**Platform survival:** Downloadable export is the insurance policy. Families always have their data regardless of what happens to Simcha. This is a trust-building feature, not a business risk — the platform's value is in the guided scripts, the curated experience, the timeline narrative, and the unsealing ceremony. A folder of unnamed MP4 files is not the same thing.
 
 ## Vision
 
-If Simcha works, it becomes the **family memory layer for Jewish lifecycle** — the place where blessings travel through time, where a grandmother's voice reaches a wedding she didn't live to attend, where two families' stories merge when their children marry.
+If Simcha works, it becomes the default way Jewish families capture blessings at lifecycle events — a digital mezuzah for milestones.
 
-In 2–3 years: AI-narrated family documentaries that surface connections across decades of contributions. Partnerships with synagogues and Jewish community centers as a standard part of lifecycle event preparation. Expansion beyond Jewish lifecycle to universal milestones (graduation, retirement, cultural ceremonies) while keeping the culturally-native DNA.
+In 2–3 years: deeper lifecycle coverage (more milestone types, richer scripts, Sephardi and Orthodox-specific variants), AI-assisted highlight reels from existing blessings, and organic growth through diaspora Jewish communities (NYC → LA → London → Toronto). The product stays Jewish. That's not a limitation — it's the positioning.
 
 The ultimate test: a 13-year-old hears their great-grandmother's voice at their bar mitzvah, and every parent in the room opens Simcha for their own family that night.
