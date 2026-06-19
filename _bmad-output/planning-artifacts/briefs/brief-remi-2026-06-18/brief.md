@@ -1,19 +1,21 @@
 ---
-title: "Product Brief: Remi"
+title: "Product Brief: Blessings App"
 status: draft
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
-# Product Brief: Remi
+# Product Brief: Blessings App
+
+> **Working title.** "Blessings App" is a placeholder. Final product name TBD. Previously working-titled "Simcha," then "Remi."
 
 ## Executive Summary
 
-Remi is a guided blessing collection platform for life's emotional milestones. When a family marks a moment — a birth, a birthday, a graduation, a wedding, a child leaving for the army — Remi gives the people who matter a simple, guided way to record a video or spoken blessing. The host gets a curated, beautiful collection they can watch that night, share with family who couldn't attend, and keep forever.
+Blessings App is a guided blessing collection platform for life's emotional milestones. When a family marks a moment — a birth, a birthday, a graduation, a wedding, a child leaving for the army — the app gives the people who matter a simple, guided way to record a video or spoken blessing. The host gets a curated, beautiful collection they can watch that night, share with family who couldn't attend, and keep forever.
 
-The product has a face: **Remi**, a warm interviewer who guides each contributor through a few thoughtful questions, turning a blank-page "say something nice" into a structured, emotional piece. Over time, families build a **Thread** — a living timeline of blessings that spans years and grows more meaningful with every milestone. Some blessings can be sealed and opened at a future moment: a message recorded at a birth, unlocked at a bar mitzvah; a parent's words, saved for a wedding day. The product delivers value at one event, on day one — the time-capsule layer is the bonus that makes families come back.
+The product features a warm interviewer persona who guides each contributor through a few thoughtful questions, turning a blank-page "say something nice" into a structured, emotional piece. Over time, families build a **Thread** — a living timeline of blessings that spans years and grows more meaningful with every milestone. Some blessings can be sealed and opened at a future moment: a message recorded at a birth, unlocked at a bar mitzvah; a parent's words, saved for a wedding day. The product delivers value at one event, on day one — the time-capsule layer is the bonus that makes families come back.
 
-**Strategy: universal product, focused go-to-market.** The engine is milestone-agnostic and works for any family, any culture, any emotional occasion. But Remi launches by going deep on **Jewish lifecycle events** — leveraging the founder's warm network of Jewish families on NYC's Upper East Side (high disposable income, high lifecycle-event spend, strong cultural attachment to l'dor v'dor). English-first, with full Hebrew support. Win the wedge, then widen.
+**Strategy: universal product, focused go-to-market.** The engine is milestone-agnostic and works for any family, any culture, any emotional occasion. But the app launches by going deep on **Jewish lifecycle events** — leveraging the founder's warm network of Jewish families on NYC's Upper East Side (high disposable income, high lifecycle-event spend, strong cultural attachment to l'dor v'dor). English-first, with full Hebrew support. Win the wedge, then widen.
 
 The market is fragmented: baby photo apps own the daily stream but ignore extended family and sacred moments. Event photo collectors capture one event and die. Time-capsule apps offer cheap text delivery with zero emotional scaffolding. **No product helps families capture guided, interview-style blessings at life's milestones and weave them into a story over time.**
 
@@ -33,40 +35,40 @@ At every meaningful milestone, the same pain repeats:
 
 ## The Solution
 
-Remi makes it effortless to collect meaningful, guided blessings — and gives families a reason to return at every milestone.
+The app makes it effortless to collect meaningful, guided blessings — and gives families a reason to return at every milestone.
 
 **How it works:**
 
 1. **Create a milestone.** A parent creates "Noam's Brit Milah" (or "Maya's Graduation," or "Yoni's Enlistment"). They get a shareable link and QR code.
 
-2. **Invite the people who matter.** The host picks 5–10 key contributors — grandparents, siblings, closest friends — who get a personal invitation. The link can also be shared broadly, but Remi is designed to feel rich with a handful of heartfelt blessings, not 40 throwaways.
+2. **Invite the people who matter.** The host picks 5–10 key contributors — grandparents, siblings, closest friends — who get a personal invitation. The link can also be shared broadly, but the app is designed to feel rich with a handful of heartfelt blessings, not 40 throwaways.
 
-3. **Remi interviews each contributor.** Instead of "record a blessing," Remi guides them through a short sequence of questions, one at a time:
+3. **The interviewer guides each contributor.** Instead of "record a blessing," the app guides them through a short sequence of questions, one at a time:
    > *"Tell Noam who you are to him."*
    > *"What's your favorite thing about him right now?"*
    > *"What do you wish for his future?"*
 
-   The contributor records a short answer to each. Remi stitches the clips into a structured, ~90-second blessing — far richer than a freeform recording, with zero "what do I say?" paralysis. Questions are culturally aware, event-specific, relationship-aware (grandparent ≠ friend), and bilingual (Hebrew/English).
+   The contributor records a short answer to each. The app stitches the clips into a structured, ~90-second blessing — far richer than a freeform recording, with zero "what do I say?" paralysis. Questions are culturally aware, event-specific, relationship-aware (grandparent ≠ friend), and bilingual (Hebrew/English).
 
 4. **The host gets a curated collection — immediately.** That evening, the parent watches eight real blessings from the people who matter most, and shares a highlight with family who couldn't attend. Instant value.
 
 5. **Optionally, seal blessings for the future.** A grandparent can record one blessing for now and one sealed for the bar mitzvah. These accumulate into a **Thread** — a timeline of family love that grows across years.
 
-6. **Every blessing is stored as a structured clip** — tagged by question, contributor, relationship, and milestone. This is the quiet superpower: years later, Remi can assemble "your mother answering *'what do you love about you'* at five milestones across your life." The longitudinal montage is just a render away.
+6. **Every blessing is stored as a structured clip** — tagged by question, contributor, relationship, and milestone. This is the quiet superpower: years later, the app can assemble "your mother answering *'what do you love about you'* at five milestones across your life." The longitudinal montage is just a render away.
 
 ## What Makes This Different
 
 The real competitors are behaviors, not apps:
 
-- **vs. Doing nothing:** Remi makes collection effortless and the output beautiful. Less work than chasing photos on WhatsApp.
+- **vs. Doing nothing:** The app makes collection effortless and the output beautiful. Less work than chasing photos on WhatsApp.
 - **vs. WhatsApp group:** Structure, uncompressed video, guided interview prompts, and a permanent organized collection instead of a scrolling chat.
-- **vs. Hired photographer:** Complementary. The photographer captures the posed moments; Remi captures the spoken heart.
-- **vs. generic video-collection tools (Tribute.co, etc.):** Those are one-shot, generic, and workplace-flavored. Remi is interview-guided, milestone-spanning, relationship-aware, and culturally fluent — with a persona that makes contributing feel like a conversation, not a chore.
+- **vs. Hired photographer:** Complementary. The photographer captures the posed moments; the app captures the spoken heart.
+- **vs. generic video-collection tools (Tribute.co, etc.):** Those are one-shot, generic, and workplace-flavored. This product is interview-guided, milestone-spanning, relationship-aware, and culturally fluent — with a persona that makes contributing feel like a conversation, not a chore.
 
 **Defensibility (honest):**
 - **Weak at launch.** The interview prompts and Hebrew support are real but replicable.
 - **Strengthens over time.** Accumulated sealed and structured content creates switching cost — you can't take unopened messages or your multi-year Thread anywhere else.
-- **The real moat is behavioral + craft.** If Remi becomes "the thing families do" at milestones, that association is hard to displace. And the quality of the interview scripts — the thing that makes blessings actually good — is a craft advantage that compounds.
+- **The real moat is behavioral + craft.** If this becomes "the thing families do" at milestones, that association is hard to displace. And the quality of the interview scripts — the thing that makes blessings actually good — is a craft advantage that compounds.
 
 ## Who This Serves
 
@@ -75,9 +77,9 @@ The real competitors are behaviors, not apps:
 - The host is the buyer. (Validate: who organized the WhatsApp group after the last event?)
 - Hosts want a curated, small collection of meaningful blessings — not 200 blurry photos.
 
-**Secondary: Grandparents** (most emotionally motivated contributors; potential gift-purchasers — buying a Remi package for a grandchild at birth).
+**Secondary: Grandparents** (most emotionally motivated contributors; potential gift-purchasers — buying a package for a grandchild at birth).
 
-**Tertiary: Contributors** (non-paying). Remi's interview format is the unlock here — it makes even reluctant, non-technical people produce something moving.
+**Tertiary: Contributors** (non-paying). The interview format is the unlock here — it makes even reluctant, non-technical people produce something moving.
 
 **Market sizing:** ~6M Jewish households in the US; ~500K in NYC metro. 0.1% of NYC metro = 500 families — enough to validate. The universal engine expands the ceiling far beyond this once the wedge is won. StoryWorth ($59–$199/yr) and Remento ($99/yr) prove families pay for memory preservation.
 
@@ -105,7 +107,7 @@ The real competitors are behaviors, not apps:
 - Create a family Thread and milestones within it
 - Shareable link + QR code for contribution
 - "Key contributors" invitation flow (5–10 priority people with personal nudges)
-- **Remi interview flow:** sequential, one-question-at-a-time prompts; contributor records a short video/voice/text answer to each; clips auto-stitched with title cards (no AI editing required for MVP)
+- **Guided interview flow:** sequential, one-question-at-a-time prompts; contributor records a short video/voice/text answer to each; clips auto-stitched with title cards (no AI editing required for MVP)
 - Guided question sets (Hebrew + English), relationship-aware, for: birth/bris/simchat bat, birthday, graduation, bar/bat mitzvah, army enlistment (גיוס)
 - Video upload from camera roll, voice recording, text input (no in-browser video recording)
 - **Structured clip storage** (tagged by question/contributor/relationship/milestone) — foundation for future longitudinal montages
@@ -134,7 +136,7 @@ The real competitors are behaviors, not apps:
 | Tier | Price | Includes |
 |---|---|---|
 | **Free** | $0 | 1 milestone, up to 5 contributors, text-only, basic interview questions |
-| **Milestone** | $29 | 1 milestone, unlimited contributors, video/voice/text, full Remi interview, downloadable collection |
+| **Milestone** | $29 | 1 milestone, unlimited contributors, video/voice/text, full guided interview, downloadable collection |
 | **Thread** | $79 | Up to 5 milestones, everything in Milestone, timeline view, sealed content, future milestone scheduling |
 | **Legacy** | $149 | Unlimited milestones, everything in Thread, premium unsealing experience, printed keepsake option |
 
@@ -143,15 +145,15 @@ The real competitors are behaviors, not apps:
 ## Handling the Hard Paths
 
 - **Divorce:** Each parent retains access; contributions are immutable (no one can delete another's blessing); per-parent privacy controls.
-- **Death of a contributor:** The product's deepest value — Remi is where voices outlive the people who spoke them. No special handling needed.
+- **Death of a contributor:** The product's deepest value — this is where voices outlive the people who spoke them. No special handling needed.
 - **Death of the child:** The Thread becomes a memorial. Content preserved indefinitely. No automated "time to unlock!" notifications; the family chooses when to engage. Reminders must be dismissable and context-aware.
 - **Dormancy:** Per-milestone pricing means nothing lapses. The Thread sits free and quiet until the next event. Gentle, optional reminders only. No punitive expiration, no deleted content.
 - **Platform survival:** Downloadable export is the insurance policy. Families always own their data. The platform's value is the interview craft, the curation, the timeline, and the unsealing ceremony — not holding files hostage.
 
 ## Vision
 
-If Remi works, it becomes the warm, familiar way families capture the spoken heart of every milestone — starting with Jewish lifecycle events and widening to every culture's emotional moments.
+If this works, it becomes the warm, familiar way families capture the spoken heart of every milestone — starting with Jewish lifecycle events and widening to every culture's emotional moments.
 
-In 2–3 years: the conversational AI interviewer (Remi as a real voice, powered by ElevenLabs Hebrew/English), auto-generated longitudinal montages (one person across the years), richer cultural script libraries, and organic growth through diaspora communities (NYC → LA → London → Toronto) and beyond the Jewish wedge into universal milestones.
+In 2–3 years: a conversational AI interviewer (a real voice persona, powered by ElevenLabs Hebrew/English), auto-generated longitudinal montages (one person across the years), richer cultural script libraries, and organic growth through diaspora communities (NYC → LA → London → Toronto) and beyond the Jewish wedge into universal milestones.
 
-The ultimate test: a soldier, the night before enlistment, watches her grandfather — gone three years now — bless her by name, in a message he recorded at her bat mitzvah. And everyone who hears about it opens Remi for their own family.
+The ultimate test: a soldier, the night before enlistment, watches her grandfather — gone three years now — bless her by name, in a message he recorded at her bat mitzvah. And everyone who hears about it opens the app for their own family.
